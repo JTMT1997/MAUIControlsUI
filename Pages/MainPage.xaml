@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiControls.Pages.MainPage"
+             Title="Net Maui Controls"
+             Background="#EAEEFA">
+    <FlexLayout>
+        <VerticalStackLayout FlexLayout.Grow="1" Padding="20" Spacing="10" VerticalOptions="End">
+            <Button x:Name="commonControlsButton" BackgroundColor="red" Text="Common Controls" TextColor="white" Clicked="commonControlsButton_Clicked"/>
+            <Button x:Name="actionControlsButton" BackgroundColor="red" Text="Action Controls" TextColor="white" Clicked="actionControlsButton_Clicked"/>
+            <Button x:Name="inputControlsButton" BackgroundColor="red" Text="Input Controls" TextColor="white" Clicked="inputControlsButton_Clicked"/>
+            <Button x:Name="drawingControlsButton" BackgroundColor="red" Text="Drawing Controls" TextColor="white" Clicked="drawingControlsButton_Clicked"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Background="black" Padding="10">
+            <Label Text="Coding Droplets"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    TextColor="White"/>
+        </VerticalStackLayout>
+    </FlexLayout>
+</ContentPage>

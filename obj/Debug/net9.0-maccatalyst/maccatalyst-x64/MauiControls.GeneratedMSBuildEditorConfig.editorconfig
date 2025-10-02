@@ -1,0 +1,85 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiControls
+build_property.ProjectDir = C:\Users\jhiej\source\repos\MauiControls\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/jhiej/source/repos/MauiControls/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/Pages/ActionControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.ActionControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ActionControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ActionControls.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/Pages/CommonControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.CommonControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CommonControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CommonControls.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/Pages/DrawingControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.DrawingControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\DrawingControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\DrawingControls.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/Pages/IndicatorControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.IndicatorControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\IndicatorControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\IndicatorControls.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/Pages/InputControls.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.InputControls.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\InputControls.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\InputControls.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/Pages/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Pages.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MainPage.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/jhiej/source/repos/MauiControls/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiControls.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

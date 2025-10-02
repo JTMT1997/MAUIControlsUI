@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiControls.Pages.InputControls"
+             Title="InputControls">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Frame BackgroundColor="#EAEEFA">
+                <Entry Placeholder="Enter The Text" PlaceholderColor="red"/>
+            </Frame>
+            <Frame BackgroundColor="#EAEEFA">
+                <Editor Placeholder="Editor" AutoSize="TextChanges"></Editor>
+            </Frame>
+            <Frame BackgroundColor="#EAEEFA">
+                <HorizontalStackLayout>
+                    <CheckBox/>
+                    <Label Text="Checkbox 01" VerticalOptions="Center"/>
+                </HorizontalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+        <VerticalStackLayout>
+
+            <Frame BackgroundColor="#EAEEFA">
+                
+                <RadioButton GroupName="Group1" Content="Option 1"/>
+                <RadioButton GroupName="Group1" Content="Option 2"/>
+                <RadioButton GroupName="Group1" Content="Option 3"/>
+                <RadioButton GroupName="Group2" Content="Option 4"/>
+                <RadioButton GroupName="Group2" Content="Option 5"/>
+                <RadioButton GroupName="Group2" Content="Option 6"/>
+            </Frame>
+        </VerticalStackLayout>
+        <Frame BackgroundColor="#EAEEFA">
+            <VerticalStackLayout>
+                <Slider Minimum="1" Maximum="100" ValueChanged="Slider_ValueChanged"
+                        MaximumTrackColor="red"
+                        MinimumTrackColor="black"
+                        ThumbColor="green"
+                        ThumbImageSource="diamond.png"/>
+
+                <Label x:Name="sliderValueLabel" HorizontalOptions="Center"/>
+                
+            </VerticalStackLayout>
+            
+        </Frame>
+        <Frame>
+            <Stepper HorizontalOptions="Center" ValueChanged="Stepper_ValueChanged"
+                     Maximum="20"
+                     Minimum="4"
+                     Increment="2"/>
+        </Frame>
+        <Frame BackgroundColor="#EAEEFA">
+            <Switch HorizontalOptions="Center"></Switch>
+        </Frame>
+
+        <Frame BackgroundColor="#EAEEFA">
+            <DatePicker/>
+        </Frame>
+        
+        <Frame BackgroundColor="#EAEEFA">
+            <TimePicker/>
+        </Frame>
+    </ScrollView>
+</ContentPage>
